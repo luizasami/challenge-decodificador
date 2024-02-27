@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>⋆☾.ೃ࿔Challenge.ೃ࿔⋆☾</title>
+</head>
+<body class="body">
+    <header class="logo">
+        <img src="assets/Logo.png" alt="logo">
+    </header>
+
+    <main>
+        <nav class="both">
+        <section class="princ">
+            <div class="princ__insira__texto">
+                <input id="input" class="princ__insira__texto__inp" type="text" placeholder="Digite seu texto aqui">
+            </div>
+            <div class="princ__aviso">
+                <br><img class="princ__aviso__img" src="assets/Group.png" alt="interrogacao">
+                <p class="princ__aviso__texto">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="princ__butao">
+                <br><button id="adicionarc" onclick="criptografar()" class="princ__butao__cripto" href="">Criptografar</button>
+                <button id="adicionard" onclick="descriptografar()" class="princ__butao__descripto" href="">Descriptografar</button>
+            </div>
+        </section>
+            <section class="princb" >
+            <div id="pribb__img" class="princb__tela__resposta">
+                <img class="princb__tela__resposta__img" src="assets/tried 1.png" alt="o-que-sera">
+                <h2 class="princb__tela__resposta__mensagem">Nenhuma mensagem encontrada</h2>
+                <p class="princb__tela__resposta__info">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div id="princebb" class="princebb" style="display: none">
+                <input id="result" class="princbb__inp" type="text">
+                <button id="copiar" onclick="copiar()"  class="princbb__copiar" href="">Copiar</button>
+            </div>
+        </section>
+        </nav>
+            
+        
+    </main>
+
+    <footer>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
